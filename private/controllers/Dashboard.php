@@ -1,7 +1,7 @@
 <?php
 class Dashboard extends Controller
 {
-	public function index(){}
+pulic function __construct(){}
 	function index()
 	{
         $this->view('home');
