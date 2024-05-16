@@ -6,6 +6,8 @@ class Admins extends Controller
 	{
      
 	
+
+		
 		if(!Auth::adminLoggedIn())
 		{
 			$this->redirect('login');
